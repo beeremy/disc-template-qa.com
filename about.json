@@ -5,5 +5,20 @@
   "assets": {
   },
   "color_schemes": {
+    "light_and_happy": {
+      "primary": "2d2a32",
+      "secondary": "FAFDF6",
+      "tertiary": "1e96fc",
+      "quaternary": "cd5334",
+      "header_background": "ffffff",
+      "header_primary": "2d2a32",
+      "highlight": "ddd92a",
+      "danger": "cd5334",
+      "success": "4c9f70",
+      "love": "ecb0e1"
+    }
+  },
+  "assets": {
+    "font": "assets/font.woff"
   }
 }

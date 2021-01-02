@@ -1,0 +1,81 @@
+.profiler-result {
+    display: none;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url(#{$font}) format("woff");
+    font-weight: 200;
+    font-style: normal;
+}
+
+html {
+    font-family: Metropolis;
+}
+
+.d-header .header-buttons {
+    margin-top: 0;
+    .header-theme-btn a {
+        color: $secondary;
+    }
+}
+
+.theme-page {
+    .header-theme-btn {
+        display: none;
+    }
+}
+
+.list-controls {
+    #create-topic,
+    .categories-admin-dropdown > .btn {
+        background: none;
+        border: 1px solid $primary-medium;
+        &:hover {
+            color: $tertiary;
+            .d-icon {
+                color: $tertiary;
+            }
+        }
+    }
+    .nav-pills > li a {
+        color: $primary;
+        padding: 6px 6px;
+        margin: 0 4px;
+        transition: box-shadow 0.15s;
+        &.active,
+        &:hover {
+        color: $primary;
+        background-color: transparent;
+        box-shadow: 0px 2px 0 0 $tertiary;
+        }
+    }
+}
+
+.table-heading {
+    border-bottom-width: 1px;
+}
+
+tbody {
+    border-top-width: 1px;
+}
+
+.category-list tbody .category {
+    border-left-width: 2px;
+}
+
+.badge-category-bg {
+    border-radius: 5px;
+    opacity: 0.5;
+}
+.badge-category-parent-bg {
+    border-radius: 5px 0 0 5px;
+    opacity: 0.5;
+    + .badge-category-bg {
+        border-radius: 0 5px 5px 0;
+    }
+}
+
+.consent_banner {
+    display: none;
+}
